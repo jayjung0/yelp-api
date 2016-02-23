@@ -34,10 +34,16 @@ SEARCH_PATH = '/v2/search/'
 BUSINESS_PATH = '/v2/business/'
 
 # OAuth credential placeholders that must be filled in by users.
-CONSUMER_KEY = None
-CONSUMER_SECRET = None
-TOKEN = None
-TOKEN_SECRET = None
+CONSUMER_KEY = '2251AfyhNhMPrGXOnVWVlg'
+CONSUMER_SECRET = '8Qz-n1_JY5ciDQV7XyqTG_ziT7A'
+TOKEN = 'fLmuLEqR-cpvOKBgdgJw3rzpADircuAB'
+TOKEN_SECRET = 'wVz1oCa6vBFHxQEWioar7j_uf2o'
+
+# API v2.0
+# Consumer Key  2251AfyhNhMPrGXOnVWVlg
+# Consumer Secret   8Qz-n1_JY5ciDQV7XyqTG_ziT7A
+# Token fLmuLEqR-cpvOKBgdgJw3rzpADircuAB
+# Token Secret  wVz1oCa6vBFHxQEWioar7j_uf2o
 
 
 def request(host, path, url_params=None):
